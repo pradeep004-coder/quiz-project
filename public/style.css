@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(4, 0, 59);
+}
+#startBox{
+    margin-top : 120px;
+}
+
+#startBtn {
+    animation: bigSmall 1s alternate infinite;
+}
+@keyframes bigSmall {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2); 
+    }
+}
+
+#logo{
+    font-size : 80px;
+    margin-bottom : 50px;
+}
+
+#QNoBlock{
+    padding : 40px;
+    border : 2px solid black;
+    border-radius : 20px 5px;
+}
+
+#quest{
+    background-color : #03f;
+    border-radius : 10px;
+     
+}
+
+.list-group{
+    background-color: #ccc;
+}
+
+.list-group-item {
+    background-color : transparent;
+    border : 1px solid;
+    font-weight : 500px
+}
+
+#resultBox > h2 {
+    margin-bottom: 40px;
+}
